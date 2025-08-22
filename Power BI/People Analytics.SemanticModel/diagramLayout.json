@@ -1,0 +1,99 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 612.04739046703776,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 50,
+            "y": 381.6145808041635
+          },
+          "nodeIndex": "estado_civil",
+          "nodeLineageTag": "0894948f-85db-414d-ab48-be0add78309d",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 807.04739046703776,
+            "y": 227.80729040208172
+          },
+          "nodeIndex": "hora_extra",
+          "nodeLineageTag": "06487f0d-b143-4138-ae8d-577a38249dad",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 356.87822374888748,
+            "y": -50
+          },
+          "nodeIndex": "salario_departamento",
+          "nodeLineageTag": "054add73-3ff4-4774-98c8-8b89c24770f0",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 251.66295467517588,
+            "y": 177.43670894226562
+          },
+          "nodeIndex": "satisfacao",
+          "nodeLineageTag": "cb962026-b50b-449e-a9bf-f75f79689c3f",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 573.04739046703776,
+            "y": 178.39793975705587
+          },
+          "nodeIndex": "tempo_empresa",
+          "nodeLineageTag": "8efab465-9db6-4222-b6d0-f85d766774ed",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1041.0473904670378,
+            "y": 191.80729040208178
+          },
+          "nodeIndex": "Medidas",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

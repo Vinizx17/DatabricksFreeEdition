@@ -1,0 +1,137 @@
+{
+  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":{\"visual\":\"1.8.95\",\"report\":\"2.0.95\",\"page\":\"1.3.95\"}}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Databricks_Logo7775971790911725.png",
+            "path": "Databricks_Logo7775971790911725.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"relationships\":[{\"source\":\"926f46e125430e2e08c1\",\"target\":\"0724c824e2ce00a71e86\",\"type\":1},{\"source\":\"926f46e125430e2e08c1\",\"target\":\"ad9807d6074dd138890e\",\"type\":1}]}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "12a7b303d2dd0080336c",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0724c824e2ce00a71e86\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":120.07328691828509,\"z\":6000,\"width\":639.6211630070187,\"height\":267.85579389463595,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"salario_departamento.Funcao\",\"active\":true}],\"Y\":[{\"queryRef\":\"Target.MediaSalarioFuncao\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"salario_departamento\",\"Type\":0},{\"Name\":\"t\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Funcao\"},\"Name\":\"salario_departamento.Funcao\",\"NativeReferenceName\":\"Funcao\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"MediaSalarioFuncao\"},\"Name\":\"Target.MediaSalarioFuncao\",\"NativeReferenceName\":\"MediaSalarioFuncao\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"MediaSalarioFuncao\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'Auto'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Média Salarial por Função'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 267.86,
+          "width": 639.62,
+          "x": 0.00,
+          "y": 120.07,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"089a9e4a043a2353ced9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":7002,\"width\":144.90678459210986,\"height\":120.1200977539858,\"tabOrder\":7002}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Databricks_Logo7775971790911725.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 120.12,
+          "width": 144.91,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 7002.00
+        },
+        {
+          "config": "{\"name\":\"2bf621598002cbe042b0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":209.76539251193802,\"y\":419.53078502387604,\"z\":0,\"width\":279.68719001591734,\"height\":136.06403838612195,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"kpi\",\"projections\":{\"Goal\":[{\"queryRef\":\"Target.Target\"}],\"TrendLine\":[{\"queryRef\":\"satisfacao.Media_Engajamento\"}],\"Indicator\":[{\"queryRef\":\"Target.MediaEngajamento\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"satisfacao\",\"Type\":0},{\"Name\":\"t\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Target\"},\"Name\":\"Target.Target\",\"NativeReferenceName\":\"Target\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Media_Engajamento\"},\"Name\":\"satisfacao.Media_Engajamento\",\"NativeReferenceName\":\"Media_Engajamento\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"MediaEngajamento\"},\"Name\":\"Target.MediaEngajamento\",\"NativeReferenceName\":\"MediaEngajamento\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Média nivel de engajamento'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 136.06,
+          "width": 279.69,
+          "x": 209.77,
+          "y": 419.53,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"42c502f226ab23055080\",\"layouts\":[{\"id\":0,\"position\":{\"x\":144.90678459210986,\"y\":0,\"z\":7001,\"width\":1102.0542301873618,\"height\":101.05341557081346,\"tabOrder\":7001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"PEOPLE ANALYTICS\",\"textStyle\":{\"fontFamily\":\"Arial\",\"fontSize\":\"36pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]}}}",
+          "filters": "[]",
+          "height": 101.05,
+          "width": 1102.05,
+          "x": 144.91,
+          "y": 0.00,
+          "z": 7001.00
+        },
+        {
+          "config": "{\"name\":\"5600e2d2a7075340d843\",\"layouts\":[{\"id\":0,\"position\":{\"x\":209.76539251193802,\"y\":555.594823409998,\"z\":2000,\"width\":279.68719001591734,\"height\":164.41071304989737,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"kpi\",\"projections\":{\"Goal\":[{\"queryRef\":\"Target.Target\"}],\"Indicator\":[{\"queryRef\":\"Target.MediaSatisfacaoValor\"}],\"TrendLine\":[{\"queryRef\":\"satisfacao.Media_Satisfacao\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Medidas\",\"Type\":0},{\"Name\":\"s\",\"Entity\":\"satisfacao\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Target\"},\"Name\":\"Target.Target\",\"NativeReferenceName\":\"Target\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"MediaSatisfacaoValor\"},\"Name\":\"Target.MediaSatisfacaoValor\",\"NativeReferenceName\":\"MediaSatisfacaoValor\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Media_Satisfacao\"},\"Name\":\"satisfacao.Media_Satisfacao\",\"NativeReferenceName\":\"Media_Satisfacao\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Média nivel de satisfação'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 164.41,
+          "width": 279.69,
+          "x": 209.77,
+          "y": 555.59,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"5ffeaf54c3337b2dea0c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":489.5295543591623,\"y\":420.2565042139978,\"z\":3000,\"width\":210.1282521069989,\"height\":161.63711700538377,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"tempo_empresa.MediaAnoEmpresa\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"MediaAnoEmpresa\"},\"Name\":\"tempo_empresa.MediaAnoEmpresa\",\"NativeReferenceName\":\"Média de anos na empresa\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"MediaAnoEmpresa\"}}}]},\"columnProperties\":{\"tempo_empresa.MediaAnoEmpresa\":{\"displayName\":\"Média de anos na empresa\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 161.64,
+          "width": 210.13,
+          "x": 489.53,
+          "y": 420.26,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"926f46e125430e2e08c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":419.53078502387604,\"z\":1000,\"width\":209.76539251193802,\"height\":300.4747514360193,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"satisfacao.Funcao\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"satisfacao\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Funcao\"},\"Name\":\"satisfacao.Funcao\",\"NativeReferenceName\":\"Funcao\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 300.47,
+          "width": 209.77,
+          "x": 0.00,
+          "y": 419.53,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"ad9807d6074dd138890e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":639.6211630070187,\"y\":120.07328691828509,\"z\":7000,\"width\":639.6211630070187,\"height\":267.85579389463595,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"salario_departamento.Genero\",\"active\":true}],\"Y\":[{\"queryRef\":\"Target.MediaSalarioFuncao\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"salario_departamento\",\"Type\":0},{\"Name\":\"t\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Genero\"},\"Name\":\"salario_departamento.Genero\",\"NativeReferenceName\":\"Genero\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"MediaSalarioFuncao\"},\"Name\":\"Target.MediaSalarioFuncao\",\"NativeReferenceName\":\"MediaSalarioFuncao\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"MediaSalarioFuncao\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"9D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Média Salarial por Genero'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 267.86,
+          "width": 639.62,
+          "x": 639.62,
+          "y": 120.07,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"bde3e4ea2dd89c0d6012\",\"layouts\":[{\"id\":0,\"position\":{\"x\":722.748823181216,\"y\":387.9290808129211,\"z\":5000,\"width\":556.4935028328213,\"height\":332.5106406967895,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"estado_civil.Estado_Civil\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(estado_civil.Quantidade_Funcionarios)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"e\",\"Entity\":\"estado_civil\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Estado_Civil\"},\"Name\":\"estado_civil.Estado_Civil\",\"NativeReferenceName\":\"Estado Civil\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Quantidade_Funcionarios\"}},\"Function\":0},\"Name\":\"Sum(estado_civil.Quantidade_Funcionarios)\",\"NativeReferenceName\":\"Soma de Quantidade_Funcionarios\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"e\"}},\"Property\":\"Quantidade_Funcionarios\"}},\"Function\":0}}}]},\"columnProperties\":{\"estado_civil.Estado_Civil\":{\"displayName\":\"Estado Civil\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'inside'\"}}},\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Percent of total'\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"percentageLabelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'BottomCenter'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Funcionários por Estado Civil'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 332.51,
+          "width": 556.49,
+          "x": 722.75,
+          "y": 387.93,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"c583280614649379409b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":489.5295543591623,\"y\":556.4935028328213,\"z\":4000,\"width\":210.1282521069989,\"height\":163.94621867688926,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"tempo_empresa.MediaAnoFuncao\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Medidas\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"MediaAnoFuncao\"},\"Name\":\"tempo_empresa.MediaAnoFuncao\",\"NativeReferenceName\":\"Média de anos na Função\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"MediaAnoFuncao\"}}}]},\"columnProperties\":{\"tempo_empresa.MediaAnoFuncao\":{\"displayName\":\"Média de anos na Função\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 163.95,
+          "width": 210.13,
+          "x": 489.53,
+          "y": 556.49,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

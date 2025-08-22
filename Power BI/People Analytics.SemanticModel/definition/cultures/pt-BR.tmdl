@@ -1,0 +1,1706 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "estado_civil": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "estado_civil"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado civil": {
+			            "State": "Generated",
+			            "Weight": 0.87
+			          }
+			        },
+			        {
+			          "estado_civil": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.8613
+			          }
+			        }
+			      ]
+			    },
+			    "estado_civil.funcao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "estado_civil",
+			          "ConceptualProperty": "Funcao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "funcao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "estado_civil.quantidade_funcionario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "estado_civil",
+			          "ConceptualProperty": "Quantidade_Funcionarios"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade funcionario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Quantidade_Funcionarios": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "estado_civil.estado_civil": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "estado_civil",
+			          "ConceptualProperty": "Estado_Civil"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado civil": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Estado_Civil": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "hora_extra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hora_extra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora extra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora_extra": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "hora_extra.departamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hora_extra",
+			          "ConceptualProperty": "Departamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "departamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "hora_extra.percentual_disponivel_hora_extra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "hora_extra",
+			          "ConceptualProperty": "Percentual_Disponivel_Hora_Extra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "percentual disponivel hora extra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Percentual_Disponivel_Hora_Extra": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "salario_departamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "salario_departamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "salario departamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "salario_departamento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "salario_departamento.funcao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "salario_departamento",
+			          "ConceptualProperty": "Funcao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "funcao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "salario_departamento.genero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "salario_departamento",
+			          "ConceptualProperty": "Genero"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "genero": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "salario_departamento.media_salario_mensal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "salario_departamento",
+			          "ConceptualProperty": "Media_Salario_Mensal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media salario mensal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_Salario_Mensal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "salario_departamento.media_salario_anual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "salario_departamento",
+			          "ConceptualProperty": "Media_Salario_Anual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media salario anual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_Salario_Anual": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "satisfacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "satisfacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "satisfacao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "satisfacao.funcao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "satisfacao",
+			          "ConceptualProperty": "Funcao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "funcao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "satisfacao.media_satisfacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "satisfacao",
+			          "ConceptualProperty": "Media_Satisfacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media satisfacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_Satisfacao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "satisfacao.media_engajamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "satisfacao",
+			          "ConceptualProperty": "Media_Engajamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media engajamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_Engajamento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tempo_empresa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tempo_empresa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tempo empresa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tempo_empresa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tempo_empresa.funcao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tempo_empresa",
+			          "ConceptualProperty": "Funcao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "funcao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tempo_empresa.media_anos_empresa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tempo_empresa",
+			          "ConceptualProperty": "Media_Anos_Empresa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media anos empresa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "media ano empresa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Media_Anos_Empresa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tempo_empresa.media_anos_funcao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tempo_empresa",
+			          "ConceptualProperty": "Media_Anos_Funcao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media anos funcao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "media ano funcao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Media_Anos_Funcao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tempo_empresa.media_ano_empresa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "MediaAnoEmpresa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media ano empresa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MediaAnoEmpresa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Média de anos na empresa": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tempo_empresa.media_ano_funcao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "MediaAnoFuncao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media ano funcao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MediaAnoFuncao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Média de anos na Função": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "target": {
+			            "State": "Generated",
+			            "Weight": 0.87
+			          }
+			        },
+			        {
+			          "focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "target.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "target.target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "target.media_satisfacao_valor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "MediaSatisfacaoValor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media satisfacao valor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MediaSatisfacaoValor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "media satisfacao courage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "media satisfacao bravery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "media satisfacao heroism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "media satisfacao fearlessness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "media satisfacao boldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "media satisfacao gallantry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "media satisfacao lionheartedness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "media satisfacao pluck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "media satisfacao spirit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "media satisfacao nerve": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "target.media_engajamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "MediaEngajamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media engajamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MediaEngajamento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "target.media_salario_funcao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "MediaSalarioFuncao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media salario funcao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MediaSalarioFuncao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "satisfacao_has_tempo_empresa": {
+			      "Binding": {
+			        "ConceptualEntity": "satisfacao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "satisfacao": {
+			          "Target": {
+			            "Entity": "satisfacao"
+			          }
+			        },
+			        "tempo_empresa": {
+			          "Target": {
+			            "Entity": "tempo_empresa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "satisfacao"
+			            },
+			            "Object": {
+			              "Role": "tempo_empresa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "satisfacaos_have_tempo_empresas"
+			        }
+			      ]
+			    },
+			    "salario_departamento_has_satisfacao": {
+			      "Binding": {
+			        "ConceptualEntity": "salario_departamento"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "salario_departamento": {
+			          "Target": {
+			            "Entity": "salario_departamento"
+			          }
+			        },
+			        "satisfacao": {
+			          "Target": {
+			            "Entity": "satisfacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "salario_departamento"
+			            },
+			            "Object": {
+			              "Role": "satisfacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "salario_departamentos_have_satisfacaos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "satisfacao"
+			            },
+			            "Object": {
+			              "Role": "salario_departamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "satisfacaos_have_salario_departamentos"
+			        }
+			      ]
+			    },
+			    "estado_civil_has_satisfacao": {
+			      "Binding": {
+			        "ConceptualEntity": "estado_civil"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estado_civil": {
+			          "Target": {
+			            "Entity": "estado_civil"
+			          }
+			        },
+			        "satisfacao": {
+			          "Target": {
+			            "Entity": "satisfacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estado_civil"
+			            },
+			            "Object": {
+			              "Role": "satisfacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estado_civil_have_satisfacaos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "satisfacao"
+			            },
+			            "Object": {
+			              "Role": "estado_civil"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "satisfacaos_have_estado_civil"
+			        }
+			      ]
+			    },
+			    "salario_departamento_has_target_media_salario_funcao": {
+			      "Binding": {
+			        "ConceptualEntity": "salario_departamento"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "salario_departamento": {
+			          "Target": {
+			            "Entity": "salario_departamento"
+			          }
+			        },
+			        "target.media_salario_funcao": {
+			          "Target": {
+			            "Entity": "target.media_salario_funcao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "salario_departamento"
+			            },
+			            "Object": {
+			              "Role": "target.media_salario_funcao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "salario_departamentos_have_media_salario_funcao"
+			        }
+			      ]
+			    },
+			    "satisfacao_has_target_media_engajamento": {
+			      "Binding": {
+			        "ConceptualEntity": "satisfacao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "satisfacao": {
+			          "Target": {
+			            "Entity": "satisfacao"
+			          }
+			        },
+			        "target.media_engajamento": {
+			          "Target": {
+			            "Entity": "target.media_engajamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "satisfacao"
+			            },
+			            "Object": {
+			              "Role": "target.media_engajamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "satisfacaos_have_media_engajamento"
+			        }
+			      ]
+			    },
+			    "satisfacao_has_target_media_satisfacao_valor": {
+			      "Binding": {
+			        "ConceptualEntity": "satisfacao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "satisfacao": {
+			          "Target": {
+			            "Entity": "satisfacao"
+			          }
+			        },
+			        "target.media_satisfacao_valor": {
+			          "Target": {
+			            "Entity": "target.media_satisfacao_valor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "satisfacao"
+			            },
+			            "Object": {
+			              "Role": "target.media_satisfacao_valor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "satisfacaos_have_media_satisfacao_valor"
+			        }
+			      ]
+			    },
+			    "target_has_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "target": {
+			          "Target": {
+			            "Entity": "target"
+			          }
+			        },
+			        "target.target": {
+			          "Target": {
+			            "Entity": "target.target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "target"
+			            },
+			            "Object": {
+			              "Role": "target.target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "targets_have_target"
+			        }
+			      ]
+			    },
+			    "target_has_column": {
+			      "Binding": {
+			        "ConceptualEntity": "Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "target": {
+			          "Target": {
+			            "Entity": "target"
+			          }
+			        },
+			        "target.column": {
+			          "Target": {
+			            "Entity": "target.column"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "target"
+			            },
+			            "Object": {
+			              "Role": "target.column"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "targets_have_columns"
+			        }
+			      ]
+			    },
+			    "tempo_empresa_has_media_ano_funcao": {
+			      "Binding": {
+			        "ConceptualEntity": "tempo_empresa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tempo_empresa": {
+			          "Target": {
+			            "Entity": "tempo_empresa"
+			          }
+			        },
+			        "tempo_empresa.media_ano_funcao": {
+			          "Target": {
+			            "Entity": "tempo_empresa.media_ano_funcao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tempo_empresa"
+			            },
+			            "Object": {
+			              "Role": "tempo_empresa.media_ano_funcao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tempo_empresas_have_media_ano_funcao"
+			        }
+			      ]
+			    },
+			    "tempo_empresa_has_media_ano_empresa": {
+			      "Binding": {
+			        "ConceptualEntity": "tempo_empresa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tempo_empresa": {
+			          "Target": {
+			            "Entity": "tempo_empresa"
+			          }
+			        },
+			        "tempo_empresa.media_ano_empresa": {
+			          "Target": {
+			            "Entity": "tempo_empresa.media_ano_empresa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tempo_empresa"
+			            },
+			            "Object": {
+			              "Role": "tempo_empresa.media_ano_empresa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tempo_empresas_have_media_ano_empresa"
+			        }
+			      ]
+			    },
+			    "tempo_empresa_has_media_anos_funcao": {
+			      "Binding": {
+			        "ConceptualEntity": "tempo_empresa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tempo_empresa": {
+			          "Target": {
+			            "Entity": "tempo_empresa"
+			          }
+			        },
+			        "tempo_empresa.media_anos_funcao": {
+			          "Target": {
+			            "Entity": "tempo_empresa.media_anos_funcao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tempo_empresa"
+			            },
+			            "Object": {
+			              "Role": "tempo_empresa.media_anos_funcao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tempo_empresas_have_media_anos_funcaos"
+			        }
+			      ]
+			    },
+			    "tempo_empresa_has_media_anos_empresa": {
+			      "Binding": {
+			        "ConceptualEntity": "tempo_empresa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tempo_empresa": {
+			          "Target": {
+			            "Entity": "tempo_empresa"
+			          }
+			        },
+			        "tempo_empresa.media_anos_empresa": {
+			          "Target": {
+			            "Entity": "tempo_empresa.media_anos_empresa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tempo_empresa"
+			            },
+			            "Object": {
+			              "Role": "tempo_empresa.media_anos_empresa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tempo_empresas_have_media_anos_empresas"
+			        }
+			      ]
+			    },
+			    "tempo_empresa_has_funcao": {
+			      "Binding": {
+			        "ConceptualEntity": "tempo_empresa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tempo_empresa": {
+			          "Target": {
+			            "Entity": "tempo_empresa"
+			          }
+			        },
+			        "tempo_empresa.funcao": {
+			          "Target": {
+			            "Entity": "tempo_empresa.funcao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tempo_empresa"
+			            },
+			            "Object": {
+			              "Role": "tempo_empresa.funcao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tempo_empresas_have_funcaos"
+			        }
+			      ]
+			    },
+			    "satisfacao_has_media_engajamento": {
+			      "Binding": {
+			        "ConceptualEntity": "satisfacao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "satisfacao": {
+			          "Target": {
+			            "Entity": "satisfacao"
+			          }
+			        },
+			        "satisfacao.media_engajamento": {
+			          "Target": {
+			            "Entity": "satisfacao.media_engajamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "satisfacao"
+			            },
+			            "Object": {
+			              "Role": "satisfacao.media_engajamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "satisfacaos_have_media_engajamentos"
+			        }
+			      ]
+			    },
+			    "satisfacao_has_media_satisfacao": {
+			      "Binding": {
+			        "ConceptualEntity": "satisfacao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "satisfacao": {
+			          "Target": {
+			            "Entity": "satisfacao"
+			          }
+			        },
+			        "satisfacao.media_satisfacao": {
+			          "Target": {
+			            "Entity": "satisfacao.media_satisfacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "satisfacao"
+			            },
+			            "Object": {
+			              "Role": "satisfacao.media_satisfacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "satisfacaos_have_media_satisfacaos"
+			        }
+			      ]
+			    },
+			    "satisfacao_has_funcao": {
+			      "Binding": {
+			        "ConceptualEntity": "satisfacao"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "satisfacao": {
+			          "Target": {
+			            "Entity": "satisfacao"
+			          }
+			        },
+			        "satisfacao.funcao": {
+			          "Target": {
+			            "Entity": "satisfacao.funcao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "satisfacao"
+			            },
+			            "Object": {
+			              "Role": "satisfacao.funcao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "satisfacaos_have_funcaos"
+			        }
+			      ]
+			    },
+			    "salario_departamento_has_media_salario_anual": {
+			      "Binding": {
+			        "ConceptualEntity": "salario_departamento"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "salario_departamento": {
+			          "Target": {
+			            "Entity": "salario_departamento"
+			          }
+			        },
+			        "salario_departamento.media_salario_anual": {
+			          "Target": {
+			            "Entity": "salario_departamento.media_salario_anual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "salario_departamento"
+			            },
+			            "Object": {
+			              "Role": "salario_departamento.media_salario_anual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "salario_departamentos_have_media_salario_anuals"
+			        }
+			      ]
+			    },
+			    "salario_departamento_has_media_salario_mensal": {
+			      "Binding": {
+			        "ConceptualEntity": "salario_departamento"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "salario_departamento": {
+			          "Target": {
+			            "Entity": "salario_departamento"
+			          }
+			        },
+			        "salario_departamento.media_salario_mensal": {
+			          "Target": {
+			            "Entity": "salario_departamento.media_salario_mensal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "salario_departamento"
+			            },
+			            "Object": {
+			              "Role": "salario_departamento.media_salario_mensal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "salario_departamentos_have_media_salario_mensal"
+			        }
+			      ]
+			    },
+			    "salario_departamento_has_genero": {
+			      "Binding": {
+			        "ConceptualEntity": "salario_departamento"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "salario_departamento": {
+			          "Target": {
+			            "Entity": "salario_departamento"
+			          }
+			        },
+			        "salario_departamento.genero": {
+			          "Target": {
+			            "Entity": "salario_departamento.genero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "salario_departamento"
+			            },
+			            "Object": {
+			              "Role": "salario_departamento.genero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "salario_departamentos_have_generos"
+			        }
+			      ]
+			    },
+			    "hora_extra_has_percentual_disponivel_hora_extra": {
+			      "Binding": {
+			        "ConceptualEntity": "hora_extra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hora_extra": {
+			          "Target": {
+			            "Entity": "hora_extra"
+			          }
+			        },
+			        "hora_extra.percentual_disponivel_hora_extra": {
+			          "Target": {
+			            "Entity": "hora_extra.percentual_disponivel_hora_extra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hora_extra"
+			            },
+			            "Object": {
+			              "Role": "hora_extra.percentual_disponivel_hora_extra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hora_extras_have_percentual_disponivel_hora_extras"
+			        }
+			      ]
+			    },
+			    "hora_extra_has_departamento": {
+			      "Binding": {
+			        "ConceptualEntity": "hora_extra"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "hora_extra": {
+			          "Target": {
+			            "Entity": "hora_extra"
+			          }
+			        },
+			        "hora_extra.departamento": {
+			          "Target": {
+			            "Entity": "hora_extra.departamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "hora_extra"
+			            },
+			            "Object": {
+			              "Role": "hora_extra.departamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hora_extras_have_departamentos"
+			        }
+			      ]
+			    },
+			    "estado_civil_has_estado_civil": {
+			      "Binding": {
+			        "ConceptualEntity": "estado_civil"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estado_civil": {
+			          "Target": {
+			            "Entity": "estado_civil"
+			          }
+			        },
+			        "estado_civil.estado_civil": {
+			          "Target": {
+			            "Entity": "estado_civil.estado_civil"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estado_civil"
+			            },
+			            "Object": {
+			              "Role": "estado_civil.estado_civil"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estado_civil_have_estado_civil"
+			        }
+			      ]
+			    },
+			    "estado_civil_has_quantidade_funcionario": {
+			      "Binding": {
+			        "ConceptualEntity": "estado_civil"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "estado_civil": {
+			          "Target": {
+			            "Entity": "estado_civil"
+			          }
+			        },
+			        "estado_civil.quantidade_funcionario": {
+			          "Target": {
+			            "Entity": "estado_civil.quantidade_funcionario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "estado_civil"
+			            },
+			            "Object": {
+			              "Role": "estado_civil.quantidade_funcionario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "estado_civil_have_quantidade_funcionarios"
+			        }
+			      ]
+			    },
+			    "tempo_empresa_has_satisfacao": {
+			      "Binding": {
+			        "ConceptualEntity": "tempo_empresa"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tempo_empresa": {
+			          "Target": {
+			            "Entity": "tempo_empresa"
+			          }
+			        },
+			        "satisfacao": {
+			          "Target": {
+			            "Entity": "satisfacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tempo_empresa"
+			            },
+			            "Object": {
+			              "Role": "satisfacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tempo_empresas_have_satisfacaos"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

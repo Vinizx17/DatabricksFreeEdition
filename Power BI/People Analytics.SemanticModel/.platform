@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "People Analytics"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "89b48631-8824-479a-9d7a-5bc1cdae5a47"
+  }
+}

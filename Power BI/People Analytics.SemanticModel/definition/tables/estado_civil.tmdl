@@ -1,0 +1,43 @@
+table estado_civil
+	lineageTag: 0894948f-85db-414d-ab48-be0add78309d
+
+	column Funcao
+		dataType: string
+		lineageTag: a16fde35-f2f1-4eb4-9c50-5398daada39c
+		summarizeBy: none
+		sourceColumn: Funcao
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantidade_Funcionarios
+		dataType: int64
+		formatString: 0
+		lineageTag: a03e8b12-c46d-4fe7-82a9-51c1d804ab16
+		summarizeBy: sum
+		sourceColumn: Quantidade_Funcionarios
+
+		annotation SummarizationSetBy = Automatic
+
+	column Estado_Civil
+		dataType: string
+		lineageTag: a397b172-0c80-4d7e-921f-266ad201d604
+		summarizeBy: none
+		sourceColumn: Estado_Civil
+
+		annotation SummarizationSetBy = Automatic
+
+	partition estado_civil = m
+		mode: import
+		source =
+				let
+				    Fonte = DatabricksMultiCloud.Catalogs("dbc-03128684-829b.cloud.databricks.com", "/sql/1.0/warehouses/3406b93f719bc4ca", [Catalog=null, Database=null, EnableAutomaticProxyDiscovery=null]),
+				    rh_Database = Fonte{[Name="rh",Kind="Database"]}[Data],
+				    rh_dataset_Schema = rh_Database{[Name="rh_dataset",Kind="Schema"]}[Data],
+				    estado_civil_Table = rh_dataset_Schema{[Name="estado_civil",Kind="Table"]}[Data]
+				in
+				    estado_civil_Table
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

@@ -1,0 +1,14 @@
+relationship AutoDetected_7625fe88-32b5-49a6-aa2d-de6a9302fff0
+	fromColumn: estado_civil.Funcao
+	toColumn: satisfacao.Funcao
+
+relationship AutoDetected_47f208ff-2beb-44e0-8bae-bcf59ffca0f2
+	fromColumn: salario_departamento.Funcao
+	toColumn: satisfacao.Funcao
+
+relationship AutoDetected_32a276b0-e038-4788-9837-d9bfe7a1ca46
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: tempo_empresa.Funcao
+	toColumn: satisfacao.Funcao
+

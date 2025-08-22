@@ -1,0 +1,34 @@
+table hora_extra
+	lineageTag: 06487f0d-b143-4138-ae8d-577a38249dad
+
+	column Departamento
+		dataType: string
+		lineageTag: dd22fdfb-17ef-496f-a952-844f0f7e56c6
+		summarizeBy: none
+		sourceColumn: Departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Percentual_Disponivel_Hora_Extra
+		dataType: double
+		lineageTag: fe332e1d-227d-4f99-958a-46f2fdeebcac
+		summarizeBy: sum
+		sourceColumn: Percentual_Disponivel_Hora_Extra
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition hora_extra = m
+		mode: import
+		source =
+				let
+				    Fonte = DatabricksMultiCloud.Catalogs("dbc-03128684-829b.cloud.databricks.com", "/sql/1.0/warehouses/3406b93f719bc4ca", [Catalog=null, Database=null, EnableAutomaticProxyDiscovery=null]),
+				    rh_Database = Fonte{[Name="rh",Kind="Database"]}[Data],
+				    rh_dataset_Schema = rh_Database{[Name="rh_dataset",Kind="Schema"]}[Data],
+				    hora_extra_Table = rh_dataset_Schema{[Name="hora_extra",Kind="Table"]}[Data]
+				in
+				    hora_extra_Table
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,44 @@
+table tempo_empresa
+	lineageTag: 8efab465-9db6-4222-b6d0-f85d766774ed
+
+	column Funcao
+		dataType: string
+		lineageTag: 166d4af2-9ccb-454c-b482-213a03ebfdb5
+		summarizeBy: none
+		sourceColumn: Funcao
+
+		annotation SummarizationSetBy = Automatic
+
+	column Media_Anos_Empresa
+		dataType: double
+		lineageTag: f39c9d80-f555-423d-9bab-99c4b8b551e9
+		summarizeBy: sum
+		sourceColumn: Media_Anos_Empresa
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Media_Anos_Funcao
+		dataType: double
+		lineageTag: 49ec5e7b-e392-4e8d-b572-d85f6723fca5
+		summarizeBy: sum
+		sourceColumn: Media_Anos_Funcao
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition tempo_empresa = m
+		mode: import
+		source =
+				let
+				    Fonte = DatabricksMultiCloud.Catalogs("dbc-03128684-829b.cloud.databricks.com", "/sql/1.0/warehouses/3406b93f719bc4ca", [Catalog=null, Database=null, EnableAutomaticProxyDiscovery=null]),
+				    rh_Database = Fonte{[Name="rh",Kind="Database"]}[Data],
+				    rh_dataset_Schema = rh_Database{[Name="rh_dataset",Kind="Schema"]}[Data],
+				    tempo_empresa_Table = rh_dataset_Schema{[Name="tempo_empresa",Kind="Table"]}[Data]
+				in
+				    tempo_empresa_Table
+
+	annotation PBI_ResultType = Table
+

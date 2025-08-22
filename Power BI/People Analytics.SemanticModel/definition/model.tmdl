@@ -1,0 +1,25 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["estado_civil","hora_extra","salario_departamento","satisfacao","tempo_empresa"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.146.705.0 (25.08)+b71502aff0a01340c88f384884ef42771068f115
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table estado_civil
+ref table hora_extra
+ref table salario_departamento
+ref table satisfacao
+ref table tempo_empresa
+ref table Medidas
+
+ref cultureInfo pt-BR
+
